@@ -21,3 +21,6 @@ module Portfolio
     # config.i18n.default_locale = :de
   end
 end
+
+Rails.application.config.assets.precompile += %w( unslider_include.js )
+Rails.application.config.assets.precompile += %w( unslider.js )
